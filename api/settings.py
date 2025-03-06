@@ -25,12 +25,12 @@ SECRET_KEY = "django-insecure-crpllt1!xmrlg!j&e#=c^p1*x=^+v^75=371&qt)ew9%(7*&)d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['sherifapi.onrender.com', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['st-api-26xq.onrender.com', '127.0.0.1', 'localhost']
 
 CORS_ALLOWED_ORIGINS = [
    'http://localhost:5173',
-   'https://pawcare-two.vercel.app',
-   'https://sherifapi.onrender.com',
+   'https://healthcare-one-self.vercel.app',
+   'https://st-api-26xq.onrender.com',
 ]
 
 CORS_ALLOW_HEADERS = [
